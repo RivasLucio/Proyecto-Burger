@@ -1,0 +1,381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    background: #E9D431;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-bar_container {
+    width: 100%;
+    height: 15%;
+    background: #1E1C1C;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+}
+
+.nav-bar_container img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+
+
+.nav-bar_container img:hover {
+    transform: scale(1.2);
+}
+
+.nav-bar_a a {
+    color: #E9D431;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+}
+
+.nav-bar_a:hover {
+    border-bottom: #E9D431 solid 2px;
+
+}
+.nav-bar ul {
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.nav-bar_container i {
+    color: #E9D431;
+    width: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-bar_redes {
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+.nav-bar_redes i {
+    transition: 1s;
+    
+}
+.nav-bar_redes i:hover {
+    transform: scale(1.3);
+}
+.fondo {
+    width: 100%;
+    height: 720px;
+    background: url(../Img/Primerfondo.png) center center/cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+}
+
+
+.burger-container {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.burger-texto img{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.burger-target_container {
+    width: 85%;
+    margin: auto;
+    height: 100%;  
+}
+
+.burger-target {
+    width: 16%;
+    height: 260px;
+    margin: 20px 10px;
+    transition: 0.8s;
+}
+.burger-target img {
+    width: 90%;
+    height: 55%;
+    margin: 10px 20px;
+}
+.burger-target_info {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: #000;
+}
+
+
+.burger-target:hover {
+    transform: scale(1.2);
+}
+
+
+.vegan {
+    width: 70%;
+    margin: 100px auto;
+    background: #206e52;
+    color: #fff;
+    font-size: 50px;
+    border: 12px solid #FFF;
+    border-radius: 25px;
+    padding: 65px;
+
+}
+
+.vegan i {
+    font-size: 80px;
+}
+
+.extras-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.extras-target {
+    width: 25%;
+    height: 200px;
+    margin: 20px 10px;
+}
+.extras-target img {
+    width: 100%;
+    height: 100%;
+    margin: 10px 20px;
+    transition: 0.9s;
+}
+.extras-target img:hover {
+    transform: scale(1.2);
+}
+
+
+.bebidas-container {
+    width: 100%;
+    height: 100%;
+    background: url(../Img/cervezafondo.jpg) center center/contain;
+    margin-bottom: 50px;
+}
+
+.bebidas-target_container {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bebidas-target {
+    margin: auto;
+    width: 33.333%;
+    padding: 10px;
+    height: 50%;
+}
+
+.bebidas-target img {
+    width: 100%;
+    height: 100%;
+    transition: 0.9s;
+}
+
+.bebidas-target img:hover {
+    transform: scale(1.15);
+}
+
+
+.tragos-container {
+    margin-top: 40px;
+    margin-bottom: px;
+    width: 100%;
+    margin: auto;
+}
+
+.tragos-target_container {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.tragos-target {
+    background: url(../Img/Gintonic.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 280px;
+}
+
+.tragos-target:hover {
+    background-size: 320px;
+}
+
+
+
+.sucursales-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.sucursales-container a {
+    color: #000;
+    text-decoration: none;
+    border: #000 solid 2px;
+    padding: 5%;
+    font-size: 150%;
+    width: 100%;
+    border-radius: 15px;
+    transition: 1s;
+}
+.sucursales-target a:hover {
+    color: #E9D431;
+    background: #000;
+}
+
+.sucursales-target h1 {
+    font-size: 180%;
+}
+
+.sucursales-container i {
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.sucursales-target_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.sucursales-target {
+    margin: 10px auto;
+    padding: 1%;
+    width: 25%;
+    height: 25%;
+    display: grid;
+    min-width: 200px;
+}
+
+
+
+.nosotros-target1_container {
+    display: flex;
+}
+.nosotros-target1_img img{
+    height: 100%;
+}
+.nosotros-target1_info {
+    padding: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+.nosotros-target2_container {
+    display: flex;
+    margin-bottom: 100px;
+}
+.nosotros-target2_info {
+    padding: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.taxibanda {
+    width: 100%;
+    height: 30px;
+    background: url(../Img/taxibanda.png) center center/contain;
+
+}
+
+
+
+.footer-container {
+    background: #000;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer ul,
+.footer a {
+    margin: 5px 10px;
+    display: flex;
+}
+
+.footer-container img {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    transition: 0.8s;
+}
+.footer-container img:hover {
+    transform: scale(1.2);
+}
+
+.footer-info a {
+    padding: 10px;
+}
+
+.footer-info a,
+.footer a {
+    color: #FFF;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.footer-info i{
+    transition: 0.8s;
+}
+
+.footer-info i:hover {
+    transform: scale(1.3);
+    color: #E9D431;
+}
+
+.footer a:hover {
+    transform: scale(1.2);
+    color: #E9D431;    
+}
