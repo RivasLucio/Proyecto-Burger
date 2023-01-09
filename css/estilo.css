@@ -169,6 +169,7 @@ ul {
     width: 25%;
     height: 200px;
     margin: 20px 10px;
+    min-width: 200px;
 }
 .extras-target img {
     width: 100%;
@@ -464,6 +465,9 @@ ol, ul {
         gap: 10px;
         z-index: 200;
     }
+    .nav-bar a {
+        font-size: 18px;
+    }
 
     .nav-bar {
         grid-column: 2/3;
@@ -495,6 +499,10 @@ ol, ul {
     .vegan i {
         font-size: 150%;
     }
+    .extras-target img {
+        height: 85%;
+        width: 85%;
+    }
 }
 @media screen and (max-width:600px) {
     .nav-bar_container img {
@@ -509,9 +517,23 @@ ol, ul {
         position: relative;
         left: 40px;
     }
+    .extras-target {
+        min-width: 180px;
+        min-height: 180px;
+        height: 150px;
+        margin: 0;
+    }
+    .extras-target img {
+        height: 70%;
+        width: 90%;
+    }
 
 }
 @media screen and (max-width:500px) {
+    .nav-bar_container {
+        height: 300px;
+        grid-template-rows: 1fr 1fr 20px;
+    }
     .nav-bar_container img {
         position: relative;
         left: 0px;
@@ -553,6 +575,14 @@ ol, ul {
     
     .burger-target_container p {
         font-size: 10px;
+    }
+    .extras-target {
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .extras-target img {
+        height: 70%;
+        width: 90%;
     }
     
 
