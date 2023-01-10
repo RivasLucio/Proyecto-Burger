@@ -240,11 +240,12 @@ ul {
     margin: 20px;
     border-radius: 20px;
     transition: 1s;
-    background-size: 320px;
+    background-size: 280px;
+    min-width: 200px;
 }
 
 .tragos-target:hover {
-    background-size: 360px;
+    background-size: 330px;
 }
 
 
@@ -405,6 +406,12 @@ ol, ul {
     .vegan i {
         font-size: 220%;
     }
+    .nosotros-target_container img {
+        width:100%;
+    }
+    .nosotros-target1_info , .nosotros-target2_info {
+        width: 50%;
+    }
 }
 @media screen and (max-width:1100px) {
     .nav-bar_container a{
@@ -416,6 +423,14 @@ ol, ul {
     }
     .burger-target_info h1 {
         font-size: 20px;
+    }
+    .tragos-target {
+        background-size: 280px;
+        width: 180px;
+        min-width: 180px;
+    }
+    .tragos-target:hover {
+        background-size: 320px;
     }
 }
 
@@ -440,6 +455,17 @@ ol, ul {
 
     .vegan i {
         font-size: 190%;
+    }
+    .tragos-target {
+        background-size: 280px;
+        width: 180px;
+        min-width: 150px;
+    }
+    .tragos-target:hover {
+        background-size: 320px;
+    }
+    .nosotros-target1_info , .nosotros-target2_info {
+        font-size: 17px;
     }
 }
 
@@ -503,6 +529,28 @@ ol, ul {
         height: 85%;
         width: 85%;
     }
+    .bebidas-target_container {
+        width: 80%;
+    }
+    
+    .bebidas-container {
+    width: 100%;
+    height:  300px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.tragos-target {
+    background-size: 270px;
+    width: 150px;
+    min-width: 130px;
+}
+.tragos-target:hover {
+    background-size: 310px;
+}
+.nosotros-target1_info , .nosotros-target2_info {
+    font-size: 15px;
+    padding: 10px;
+}
 }
 @media screen and (max-width:600px) {
     .nav-bar_container img {
@@ -526,6 +574,20 @@ ol, ul {
     .extras-target img {
         height: 70%;
         width: 90%;
+    }
+    .tragos-target {
+        background-size: 240px;
+        width: 130px;
+        height: 320px;
+        min-width: 100px;
+    }
+    .tragos-target:hover {
+        background-size: 280px;
+    }
+
+    .nosotros-target1_info , .nosotros-target2_info {
+        font-size: 15px;
+        width: 60%;
     }
 
 }
@@ -584,7 +646,36 @@ ol, ul {
         height: 70%;
         width: 90%;
     }
-    
+
+    .bebidas-target_container {
+        width: 85%;
+    }   
+
+    .tragos-target_container {
+        width: 90%;
+    }
+    .tragos-target {
+        background-size: 190px;
+        width: 120px;
+        height: 280px;
+        min-width: 80px;
+    }
+    .tragos-target:hover {
+        background-size: 220px;
+    }
+    .sucursales-container {
+        width: 90%;
+    }
+    .sucursales-target {
+        margin: 10px auto;
+        width: 25%;
+        height: 20%;
+        min-width: 150px;
+    }
+    .nosotros-target1_info , .nosotros-target2_info {
+        font-size: 12px;
+        width: 100%;
+    }
 
 
     .footer a {
@@ -595,3 +686,97 @@ ol, ul {
     }
 }
 
+@media screen and (max-width:400px) {
+    .extras-target {
+        min-width: 100px;
+        min-height: 100px;
+    }
+    .extras-target img {
+        height: 70%;
+        width: 90%;
+    }
+    .bebidas-target_container {
+        width: 90%;
+    }
+    .bebidas-target img {
+        width: 100%;
+        height: 70%;
+    }
+    .tragos-target_container {
+        width: 80%;
+    }
+    .tragos-target {
+        background-size: 140px;
+        width: 90px;
+        height: 200px;
+        min-width: 40px;
+    }
+    .tragos-target:hover {
+        background-size: 180px;
+    }
+    .tragos-texto img {
+        width: 80%;
+    }
+    .texto-sucursales img{
+        width: 90%;
+    }
+    .nosotros-texto img {
+        width: 90%;
+    }
+    .nosotros-target1_container {
+        flex-direction: column;
+    }
+    .nosotros-target2_container {
+        flex-direction: column-reverse;
+    }
+    .nosotros-target1_info , .nosotros-target2_info {
+        font-size: 16px;
+        padding: 0;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .extras-target {
+        min-width: 70px;
+        min-height: 70px;
+    }
+    .extras-target img {
+        height: 75%;
+        width: 100%;
+    }
+    .bebidas-target img {
+        width: 90%;
+        height: 60%;
+    }
+    .tragos-target_container {
+        width: 90%;
+    }
+    .tragos-target {
+        background-size: 130px;
+        width: 80px;
+        height: 190px;
+        min-width: 50px;
+    }
+    .tragos-target:hover {
+        background-size: 150px;
+    }
+    .sucursales-container {
+        width: 100%;
+    }
+    .sucursales-target {
+        width:  80%;
+        height: 20%;
+        min-width: 50px;
+    }
+    .footer a {
+        font-size: 10px;
+    }
+    .footer-info a {
+        font-size: 14px;
+    }
+    .nosotros-target1_info , .nosotros-target2_info {
+        font-size: 14px;
+        width: 96%;
+    }
+}
