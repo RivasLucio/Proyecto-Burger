@@ -1,0 +1,23 @@
+.extras-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    .extras-target {
+        width: 25%;
+        height: 200px;
+        margin: 20px 10px;
+        min-width: 200px;
+        img {
+            width: 100%;
+            height: 100%;
+            margin: 10px 20px;
+            transition: 0.9s;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+

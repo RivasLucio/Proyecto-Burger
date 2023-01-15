@@ -1,0 +1,52 @@
+.sucursales-container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    a {
+        color: #000;
+        text-decoration: none;
+        border: #000 solid 2px;
+        padding: 5%;
+        font-size: 150%;
+        width: 100%;
+        border-radius: 15px;
+        transition: 1s;
+    }
+    i {
+        margin-right: 7px;
+        font-size: 20px;
+    }
+}
+
+
+.sucursales-target_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    .sucursales-target {
+        margin: 10px auto;
+        padding: 1%;
+        width: 25%;
+        height: 25%;
+        display: grid;
+        min-width: 200px;
+        h1 {
+            font-size: 180%;
+        }
+        a {
+            &:hover {
+                color: #E9D431;
+                background: #000;
+            }
+        }
+    }
+}
+
+
+
+
+
+

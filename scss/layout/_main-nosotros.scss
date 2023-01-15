@@ -1,0 +1,24 @@
+.nosotros-target1_container {
+    display: flex;
+    .nosotros-target1_img {
+        img {
+        height: 100%;
+    }
+    }
+    .nosotros-target1_info {
+        padding: 20px;
+        font-size: 30px;
+        margin: auto;
+    }
+}
+
+
+.nosotros-target2_container {
+    display: flex;
+    margin-bottom: 100px;
+    .nosotros-target2_info {
+        padding: 20px;
+        font-size: 30px;
+        margin: auto;
+    }
+}
