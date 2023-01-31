@@ -1,7 +1,7 @@
 {
   "name": "proyecto-burger",
   "version": "1.0.0",
-  "description": "se migra proyecto a sass",
+  "description": "<p align=\"center\"><img width=\"280px\" src=\"https://static.spotapps.co/web/craftbandb--com/custom/logo_outline.png\" alt=\"logo de craft\"></p>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/RivasLucio/Proyecto-Burger/issues"
   },
-  "homepage": "https://github.com/RivasLucio/Proyecto-Burger#readme"
+  "homepage": "https://github.com/RivasLucio/Proyecto-Burger#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
 }
