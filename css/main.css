@@ -171,7 +171,18 @@ ol, ul {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 80px; }
-    .tragos-container .tragos-target_container .tragos-target {
+    .tragos-container .tragos-target_container .tragos-target1 {
+      background: url(../Img/mojito.jpg) no-repeat center center/cover;
+      width: 29%;
+      height: 400px;
+      margin: 20px;
+      border-radius: 20px;
+      transition: 1s;
+      background-size: 380px;
+      min-width: 200px; }
+      .tragos-container .tragos-target_container .tragos-target1:hover {
+        background-size: 410px; }
+    .tragos-container .tragos-target_container .tragos-target2 {
       background: url(../Img/Gintonic.jpg) no-repeat center center/cover;
       width: 29%;
       height: 400px;
@@ -180,8 +191,52 @@ ol, ul {
       transition: 1s;
       background-size: 280px;
       min-width: 200px; }
-      .tragos-container .tragos-target_container .tragos-target:hover {
+      .tragos-container .tragos-target_container .tragos-target2:hover {
         background-size: 330px; }
+    .tragos-container .tragos-target_container .tragos-target3 {
+      background: url(../Img/limonada.jpg) no-repeat center center/cover;
+      width: 29%;
+      height: 400px;
+      margin: 20px;
+      border-radius: 20px;
+      transition: 1s;
+      background-size: 350px;
+      min-width: 200px; }
+      .tragos-container .tragos-target_container .tragos-target3:hover {
+        background-size: 380px; }
+    .tragos-container .tragos-target_container .tragos-target4 {
+      background: url(../Img/daiquiri.jpg) no-repeat center center/cover;
+      width: 29%;
+      height: 400px;
+      margin: 20px;
+      border-radius: 20px;
+      transition: 1s;
+      background-size: 400px;
+      min-width: 200px; }
+      .tragos-container .tragos-target_container .tragos-target4:hover {
+        background-size: 430px; }
+    .tragos-container .tragos-target_container .tragos-target5 {
+      background: url(../Img/daiquiri2.jpg) no-repeat center center/cover;
+      width: 29%;
+      height: 400px;
+      margin: 20px;
+      border-radius: 20px;
+      transition: 1s;
+      background-size: 300px;
+      min-width: 200px; }
+      .tragos-container .tragos-target_container .tragos-target5:hover {
+        background-size: 340px; }
+    .tragos-container .tragos-target_container .tragos-target6 {
+      background: url(../Img/margarita.jpg) no-repeat center center/cover;
+      width: 29%;
+      height: 400px;
+      margin: 20px;
+      border-radius: 20px;
+      transition: 1s;
+      background-size: 400px;
+      min-width: 200px; }
+      .tragos-container .tragos-target_container .tragos-target6:hover {
+        background-size: 440px; }
 
 .sucursales-container {
   height: 100%;
@@ -301,12 +356,21 @@ footer .footer-container {
     width: 50%; }
   .tragos-container .tragos-target_container {
     width: 80%; }
-    .tragos-container .tragos-target_container .tragos-target {
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
       width: 25%;
-      background-size: 280px;
       min-width: 180px; }
-      .tragos-container .tragos-target_container .tragos-target:hover {
-        background-size: 320px; } }
+    .tragos-container .tragos-target_container .tragos-target5 {
+      background-size: 300px; }
+      .tragos-container .tragos-target_container .tragos-target5:hover {
+        background-size: 330px; }
+    .tragos-container .tragos-target_container .tragos-target3 {
+      background-size: 350px; }
+      .tragos-container .tragos-target_container .tragos-target3:hover {
+        background-size: 400px; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+      background-size: 400px; }
+      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+        background-size: 430px; } }
 
 @media screen and (max-width: 1100px) {
   .nav-bar_container a {
@@ -389,12 +453,22 @@ footer .footer-container {
     margin-bottom: 50px; }
     .bebidas-container .bebidas-target_container {
       width: 80%; }
-  .tragos-container .tragos-target_container .tragos-target {
-    background-size: 270px;
+  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
     width: 150px;
-    min-width: 130px; }
-    .tragos-container .tragos-target_container .tragos-target:hover {
-      background-size: 310px; }
+    min-width: 130px;
+    height: 340px; }
+  .tragos-container .tragos-target_container .tragos-target5 {
+    background-size: 280px; }
+    .tragos-container .tragos-target_container .tragos-target5:hover {
+      background-size: 330px; }
+  .tragos-container .tragos-target_container .tragos-target3 {
+    background-size: 295px; }
+    .tragos-container .tragos-target_container .tragos-target3:hover {
+      background-size: 330px; }
+  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+    background-size: 330px; }
+    .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+      background-size: 370px; }
   .nosotros-target1_container .nosotros-target1_info {
     font-size: 15px;
     padding: 10px; }
@@ -421,19 +495,30 @@ footer .footer-container {
       .extras-container .extras-target img {
         height: 70%;
         width: 90%; }
-  .tragos-container .tragos-target_container .tragos-target {
-    background-size: 220px;
-    width: 130px;
-    height: 320px;
-    min-width: 100px; }
-    .tragos-container .tragos-target_container .tragos-target:hover {
-      background-size: 250px; }
-  .nosotros-target1_container .nosotros-target1_info {
-    font-size: 13px;
-    width: 60%; }
-  .nosotros-target2_container .nosotros-target2_info {
-    font-size: 13px;
-    width: 60%; } }
+  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+    width: 150px;
+    min-width: 100px;
+    height: 320px; }
+  .tragos-container .tragos-target_container .tragos-target5 {
+    background-size: 250px; }
+    .tragos-container .tragos-target_container .tragos-target5:hover {
+      background-size: 280px; }
+  .tragos-container .tragos-target_container .tragos-target3 {
+    background-size: 270px; }
+    .tragos-container .tragos-target_container .tragos-target3:hover {
+      background-size: 300px; }
+  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+    background-size: 320px; }
+    .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+      background-size: 370px; } }
+
+.nosotros-target1_container .nosotros-target1_info {
+  font-size: 13px;
+  width: 60%; }
+
+.nosotros-target2_container .nosotros-target2_info {
+  font-size: 13px;
+  width: 60%; }
 
 @media screen and (max-width: 500px) {
   .nav-bar_container {
@@ -479,13 +564,26 @@ footer .footer-container {
     width: 85%; }
   .tragos-container .tragos-target_container {
     width: 90%; }
-    .tragos-container .tragos-target_container .tragos-target {
-      background-size: 190px;
-      width: 120px;
-      height: 280px;
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+      width: 140px;
+      height: 260px;
       min-width: 80px; }
-      .tragos-container .tragos-target_container .tragos-targethover {
-        background-size: 220px; }
+    .tragos-container .tragos-target_container .tragos-target5 {
+      background-size: 220px; }
+      .tragos-container .tragos-target_container .tragos-target5:hover {
+        background-size: 260px; }
+    .tragos-container .tragos-target_container .tragos-target2 {
+      background-size: 200px; }
+      .tragos-container .tragos-target_container .tragos-target2:hover {
+        background-size: 240px; }
+    .tragos-container .tragos-target_container .tragos-target3 {
+      background-size: 240px; }
+      .tragos-container .tragos-target_container .tragos-target3:hover {
+        background-size: 300px; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+      background-size: 280px; }
+      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+        background-size: 320px; }
   .sucursales-container {
     width: 95%; }
     .sucursales-container .sucursales-target_container .sucursales-target {
@@ -529,14 +627,27 @@ footer .footer-container {
   .tragos-texto img {
     width: 80%; }
   .tragos-container .tragos-target_container {
-    width: 90%; }
-    .tragos-container .tragos-target_container .tragos-target {
-      background-size: 140px;
-      width: 90px;
-      height: 200px;
-      min-width: 40px; }
-      .tragos-container .tragos-target_container .tragos-target:hover {
-        background-size: 180px; }
+    width: 95%; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+      width: 100px;
+      height: 230px;
+      min-width: 80px; }
+    .tragos-container .tragos-target_container .tragos-target5 {
+      background-size: 180px; }
+      .tragos-container .tragos-target_container .tragos-target5:hover {
+        background-size: 210px; }
+    .tragos-container .tragos-target_container .tragos-target2 {
+      background-size: 160px; }
+      .tragos-container .tragos-target_container .tragos-target2:hover {
+        background-size: 200px; }
+    .tragos-container .tragos-target_container .tragos-target3 {
+      background-size: 200px; }
+      .tragos-container .tragos-target_container .tragos-target3:hover {
+        background-size: 230px; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+      background-size: 230px; }
+      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+        background-size: 260px; }
   .texto-sucursales img {
     width: 90%; }
   main .nosotros-texto img {
@@ -597,13 +708,26 @@ footer .footer-container {
     height: 60%; }
   .tragos-container .tragos-target_container {
     width: 98%; }
-    .tragos-container .tragos-target_container .tragos-target {
-      background-size: 130px;
-      width: 80px;
-      height: 190px;
-      min-width: 50px; }
-      .tragos-container .tragos-target_container .tragos-target:hover {
-        background-size: 150px; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+      width: 70px;
+      height: 180px;
+      min-width: 40px; }
+    .tragos-container .tragos-target_container .tragos-target5 {
+      background-size: 140px; }
+      .tragos-container .tragos-target_container .tragos-target5:hover {
+        background-size: 170px; }
+    .tragos-container .tragos-target_container .tragos-target2 {
+      background-size: 120px; }
+      .tragos-container .tragos-target_container .tragos-target2:hover {
+        background-size: 160px; }
+    .tragos-container .tragos-target_container .tragos-target3 {
+      background-size: 170px; }
+      .tragos-container .tragos-target_container .tragos-target3:hover {
+        background-size: 200px; }
+    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+      background-size: 190px; }
+      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+        background-size: 220px; }
   .sucursales-container {
     width: 100%; }
     .sucursales-container .sucursales-target_container .sucursales-target {

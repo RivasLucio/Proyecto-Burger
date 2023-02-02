@@ -1,0 +1,78 @@
+@mixin trago1 { 
+    background: url(../Img/mojito.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 380px;
+    min-width: 200px;
+    &:hover {
+        background-size: 410px;
+    }
+}
+@mixin trago2 { 
+    background: url(../Img/Gintonic.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 280px;
+    min-width: 200px;
+    &:hover {
+        background-size: 330px;
+    }
+}
+@mixin trago3 { 
+    background: url(../Img/limonada.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 350px;
+    min-width: 200px;
+    &:hover {
+        background-size: 380px;
+    }
+}
+@mixin trago4 { 
+    background: url(../Img/daiquiri.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 400px;
+    min-width: 200px;
+    &:hover {
+        background-size: 430px;
+    }
+}
+@mixin trago5 { 
+    background: url(../Img/daiquiri2.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 300px;
+    min-width: 200px;
+    &:hover {
+        background-size: 340px;
+    }
+}
+@mixin trago6 { 
+    background: url(../Img/margarita.jpg) no-repeat center center/cover;
+    width: 29%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    background-size: 400px;
+    min-width: 200px;
+    &:hover {
+        background-size: 440px;
+    }
+}

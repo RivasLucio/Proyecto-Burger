@@ -39,18 +39,23 @@
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 80px;
-        .tragos-target {
-            background: url(../Img/Gintonic.jpg) no-repeat center center/cover;
-            width: 29%;
-            height: 400px;
-            margin: 20px;
-            border-radius: 20px;
-            transition: 1s;
-            background-size: 280px;
-            min-width: 200px;
-            &:hover {
-                background-size: 330px;
-            }
+        .tragos-target1 {
+            @include trago1
         }
+        .tragos-target2 {
+            @include trago2
+        }
+        .tragos-target3 {
+            @include trago3
+        }
+        .tragos-target4 {
+            @include trago4
+        }
+        .tragos-target5 {
+            @include trago5
+        }
+        .tragos-target6 {
+            @include trago6
+        }        
     }
 }

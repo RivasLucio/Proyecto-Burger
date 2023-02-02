@@ -23,12 +23,26 @@
     .tragos-container {
         .tragos-target_container {
             width: 80%;
-            .tragos-target {
+            .tragos-target1, .tragos-target2,.tragos-target3, .tragos-target4, .tragos-target5, .tragos-target6{
                 width: 25%;
-                background-size: 280px;
                 min-width: 180px;
+            }
+            .tragos-target5{
+                background-size: 300px;
                 &:hover {
-                    background-size: 320px;
+                    background-size: 330px;
+                }
+            }
+            .tragos-target3{
+                background-size: 350px;
+                &:hover {
+                    background-size: 400px;
+                }
+            }
+            .tragos-target1,.tragos-target4,.tragos-target6{
+                background-size: 400px;
+                &:hover {
+                    background-size: 430px;
                 }
             }
         }
