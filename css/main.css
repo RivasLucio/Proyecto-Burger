@@ -283,6 +283,8 @@ ol, ul {
     padding: 20px;
     font-size: 30px;
     margin: auto; }
+    .nosotros-target1_container .nosotros-target1_info p {
+      font-size: 25px; }
 
 .nosotros-target2_container {
   display: flex;
@@ -291,6 +293,8 @@ ol, ul {
     padding: 20px;
     font-size: 30px;
     margin: auto; }
+    .nosotros-target2_container .nosotros-target2_info p {
+      font-size: 25px; }
 
 footer .taxibanda {
   width: 100%;
@@ -340,6 +344,12 @@ footer .footer-container {
       transform: scale(1.3);
       color: #E9D431; }
 
+@media screen and (max-width: 1400px) {
+  .nosotros-target_container .nosotros-target1_info p {
+    font-size: 24px; }
+  .nosotros-target_container .nosotros-target2_info p {
+    font-size: 24px; } }
+
 @media screen and (max-width: 1200px) {
   .vegan {
     width: 70%;
@@ -352,8 +362,12 @@ footer .footer-container {
     width: 100%; }
   .nosotros-target_container .nosotros-target1_info {
     width: 50%; }
+    .nosotros-target_container .nosotros-target1_info p {
+      font-size: 22px; }
   .nosotros-target_container .nosotros-target2_info {
     width: 50%; }
+    .nosotros-target_container .nosotros-target2_info p {
+      font-size: 22px; }
   .tragos-container .tragos-target_container {
     width: 80%; }
     .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
@@ -399,9 +413,9 @@ footer .footer-container {
     min-width: 150px; }
     .tragos-container .tragos-target_container .tragos-target:hover {
       background-size: 320px; }
-  .nosotros-target1_container .nosotros-target1_info {
+  .nosotros-target1_container .nosotros-target1_info p {
     font-size: 17px; }
-  .nosotros-target2_container .nosotros-target2_info {
+  .nosotros-target2_container .nosotros-target2_info p {
     font-size: 17px; } }
 
 @media screen and (max-width: 700px) {
@@ -453,7 +467,12 @@ footer .footer-container {
     margin-bottom: 50px; }
     .bebidas-container .bebidas-target_container {
       width: 80%; }
-  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+  .tragos-container .tragos-target_container .tragos-target1,
+  .tragos-container .tragos-target_container .tragos-target2,
+  .tragos-container .tragos-target_container .tragos-target3,
+  .tragos-container .tragos-target_container .tragos-target4,
+  .tragos-container .tragos-target_container .tragos-target5,
+  .tragos-container .tragos-target_container .tragos-target6 {
     width: 150px;
     min-width: 130px;
     height: 340px; }
@@ -465,16 +484,22 @@ footer .footer-container {
     background-size: 295px; }
     .tragos-container .tragos-target_container .tragos-target3:hover {
       background-size: 330px; }
-  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+  .tragos-container .tragos-target_container .tragos-target1,
+  .tragos-container .tragos-target_container .tragos-target4,
+  .tragos-container .tragos-target_container .tragos-target6 {
     background-size: 330px; }
-    .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+    .tragos-container .tragos-target_container .tragos-target1:hover,
+    .tragos-container .tragos-target_container .tragos-target4:hover,
+    .tragos-container .tragos-target_container .tragos-target6:hover {
       background-size: 370px; }
   .nosotros-target1_container .nosotros-target1_info {
-    font-size: 15px;
     padding: 10px; }
+    .nosotros-target1_container .nosotros-target1_info p {
+      font-size: 15px; }
   .nosotros-target2_container .nosotros-target2_info {
-    font-size: 15px;
-    padding: 10px; } }
+    padding: 10px; }
+    .nosotros-target2_container .nosotros-target2_info p {
+      font-size: 15px; } }
 
 @media screen and (max-width: 600px) {
   .nav-bar_container img {
@@ -495,7 +520,12 @@ footer .footer-container {
       .extras-container .extras-target img {
         height: 70%;
         width: 90%; }
-  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+  .tragos-container .tragos-target_container .tragos-target1,
+  .tragos-container .tragos-target_container .tragos-target2,
+  .tragos-container .tragos-target_container .tragos-target3,
+  .tragos-container .tragos-target_container .tragos-target4,
+  .tragos-container .tragos-target_container .tragos-target5,
+  .tragos-container .tragos-target_container .tragos-target6 {
     width: 150px;
     min-width: 100px;
     height: 320px; }
@@ -507,18 +537,22 @@ footer .footer-container {
     background-size: 270px; }
     .tragos-container .tragos-target_container .tragos-target3:hover {
       background-size: 300px; }
-  .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+  .tragos-container .tragos-target_container .tragos-target1,
+  .tragos-container .tragos-target_container .tragos-target4,
+  .tragos-container .tragos-target_container .tragos-target6 {
     background-size: 320px; }
-    .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
-      background-size: 370px; } }
-
-.nosotros-target1_container .nosotros-target1_info {
-  font-size: 13px;
-  width: 60%; }
-
-.nosotros-target2_container .nosotros-target2_info {
-  font-size: 13px;
-  width: 60%; }
+    .tragos-container .tragos-target_container .tragos-target1:hover,
+    .tragos-container .tragos-target_container .tragos-target4:hover,
+    .tragos-container .tragos-target_container .tragos-target6:hover {
+      background-size: 370px; }
+  .nosotros-target1_container .nosotros-target1_info {
+    width: 60%; }
+    .nosotros-target1_container .nosotros-target1_info p {
+      font-size: 13px; }
+  .nosotros-target2_container .nosotros-target2_info {
+    width: 60%; }
+    .nosotros-target2_container .nosotros-target2_info p {
+      font-size: 13px; } }
 
 @media screen and (max-width: 500px) {
   .nav-bar_container {
@@ -564,7 +598,12 @@ footer .footer-container {
     width: 85%; }
   .tragos-container .tragos-target_container {
     width: 90%; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target2,
+    .tragos-container .tragos-target_container .tragos-target3,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target5,
+    .tragos-container .tragos-target_container .tragos-target6 {
       width: 140px;
       height: 260px;
       min-width: 80px; }
@@ -580,9 +619,13 @@ footer .footer-container {
       background-size: 240px; }
       .tragos-container .tragos-target_container .tragos-target3:hover {
         background-size: 300px; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target6 {
       background-size: 280px; }
-      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+      .tragos-container .tragos-target_container .tragos-target1:hover,
+      .tragos-container .tragos-target_container .tragos-target4:hover,
+      .tragos-container .tragos-target_container .tragos-target6:hover {
         background-size: 320px; }
   .sucursales-container {
     width: 95%; }
@@ -592,11 +635,13 @@ footer .footer-container {
       height: 20%;
       min-width: 150px; }
   .nosotros-target1_container .nosotros-target1_info {
-    font-size: 12px;
     width: 100%; }
+    .nosotros-target1_container .nosotros-target1_info p {
+      font-size: 12px; }
   .nosotros-target2_container .nosotros-target2_info {
-    font-size: 12px;
     width: 100%; }
+    .nosotros-target2_container .nosotros-target2_info p {
+      font-size: 12px; }
   footer .footer-container .footer a {
     margin: 5px 6px;
     font-size: 14px; }
@@ -628,7 +673,12 @@ footer .footer-container {
     width: 80%; }
   .tragos-container .tragos-target_container {
     width: 95%; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target2,
+    .tragos-container .tragos-target_container .tragos-target3,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target5,
+    .tragos-container .tragos-target_container .tragos-target6 {
       width: 100px;
       height: 230px;
       min-width: 80px; }
@@ -644,9 +694,13 @@ footer .footer-container {
       background-size: 200px; }
       .tragos-container .tragos-target_container .tragos-target3:hover {
         background-size: 230px; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target6 {
       background-size: 230px; }
-      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+      .tragos-container .tragos-target_container .tragos-target1:hover,
+      .tragos-container .tragos-target_container .tragos-target4:hover,
+      .tragos-container .tragos-target_container .tragos-target6:hover {
         background-size: 260px; }
   .texto-sucursales img {
     width: 90%; }
@@ -655,15 +709,17 @@ footer .footer-container {
   .nosotros-target1_container {
     flex-direction: column; }
     .nosotros-target1_container .nosotros-target1_info {
-      font-size: 16px;
       padding: 0;
       width: 90%; }
+      .nosotros-target1_container .nosotros-target1_info p {
+        font-size: 16px; }
   .nosotros-target2_container {
     flex-direction: column-reverse; }
     .nosotros-target2_container .nosotros-target2_info {
-      font-size: 16px;
       padding: 0;
-      width: 90%; } }
+      width: 90%; }
+      .nosotros-target2_container .nosotros-target2_info p {
+        font-size: 16px; } }
 
 @media screen and (max-width: 300px) {
   .nav-bar_container img {
@@ -708,7 +764,12 @@ footer .footer-container {
     height: 60%; }
   .tragos-container .tragos-target_container {
     width: 98%; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target2, .tragos-container .tragos-target_container .tragos-target3, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target5, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target2,
+    .tragos-container .tragos-target_container .tragos-target3,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target5,
+    .tragos-container .tragos-target_container .tragos-target6 {
       width: 70px;
       height: 180px;
       min-width: 40px; }
@@ -724,9 +785,13 @@ footer .footer-container {
       background-size: 170px; }
       .tragos-container .tragos-target_container .tragos-target3:hover {
         background-size: 200px; }
-    .tragos-container .tragos-target_container .tragos-target1, .tragos-container .tragos-target_container .tragos-target4, .tragos-container .tragos-target_container .tragos-target6 {
+    .tragos-container .tragos-target_container .tragos-target1,
+    .tragos-container .tragos-target_container .tragos-target4,
+    .tragos-container .tragos-target_container .tragos-target6 {
       background-size: 190px; }
-      .tragos-container .tragos-target_container .tragos-target1:hover, .tragos-container .tragos-target_container .tragos-target4:hover, .tragos-container .tragos-target_container .tragos-target6:hover {
+      .tragos-container .tragos-target_container .tragos-target1:hover,
+      .tragos-container .tragos-target_container .tragos-target4:hover,
+      .tragos-container .tragos-target_container .tragos-target6:hover {
         background-size: 220px; }
   .sucursales-container {
     width: 100%; }
@@ -735,11 +800,13 @@ footer .footer-container {
       height: 20%;
       min-width: 50px; }
   .nosotros-target1_container .nosotros-target1_info {
-    font-size: 14px;
     width: 96%; }
+    .nosotros-target1_container .nosotros-target1_info p {
+      font-size: 14px; }
   .nosotros-target2_container .nosotros-target2_info {
-    font-size: 14px;
     width: 96%; }
+    .nosotros-target2_container .nosotros-target2_info p {
+      font-size: 14px; }
   footer .footer-container .footer a {
     font-size: 10px; }
   footer .footer-container .footer-info a {

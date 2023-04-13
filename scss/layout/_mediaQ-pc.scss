@@ -1,3 +1,18 @@
+@media screen and (max-width:1400px) {
+    .nosotros-target_container{
+        .nosotros-target1_info {
+            p {
+                font-size: 24px;
+            }
+        }
+        .nosotros-target2_info {
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width:1200px) {
     .vegan {
         width: 70%;
@@ -15,9 +30,15 @@
         }
         .nosotros-target1_info {
             width: 50%;
+            p {
+                font-size: 22px;
+            }
         }
         .nosotros-target2_info {
             width: 50%;
+            p {
+                font-size: 22px;
+            }
         }
     }
     .tragos-container {
