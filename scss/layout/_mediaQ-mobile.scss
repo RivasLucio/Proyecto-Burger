@@ -251,6 +251,13 @@
 
   .nosotros-target1_container {
     flex-direction: column;
+    .nosotros-target1_img {
+      width: 100%;
+      img {
+      height: 100%;
+      width: 100%;
+  }
+  }
     .nosotros-target1_info {
       padding: 0;
       width: 90%;
@@ -261,6 +268,13 @@
   }
   .nosotros-target2_container {
     flex-direction: column-reverse;
+    .nosotros-target2_img {
+      width: 100%;
+      img {
+      height: 100%;
+      width: 100%;
+  }
+  }
     .nosotros-target2_info {
       padding: 0;
       width: 90%;
@@ -405,7 +419,7 @@
       }
     }
   }
-  .nosotros-target2_container {
+  .nosotros-target2_container { 
     .nosotros-target2_info {
       width: 96%;
       p {
